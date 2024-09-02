@@ -1,0 +1,131 @@
+style
+{font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+color: #333;
+}
+header {
+background-color: #0056b3;
+color: #ffffff;
+padding: 1rem;
+text-align: center;
+position: relative;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+margin: 0;
+font-size: 2.5rem;
+}
+header p {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.2rem;
+margin: 0.5rem 0;
+}
+header h3 {
+margin: 1rem 0;
+font-size: 1.2rem;
+cursor: pointer;
+display: inline-flex;
+align-items: center;
+color: #ffffff;
+transition: color 0.3s ease;
+}
+header h3 img {
+margin-right: 0.5rem;
+vertical-align: middle;
+}
+header h3:hover {
+color: #00bfae;
+}
+.container {
+width: 80%;
+margin: 2rem auto;
+padding: 2rem;
+background-color: #ffffff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container h2 {
+margin: 0;
+color: #0056b3;
+}
+.course {
+margin-bottom: 1.5rem;
+padding: 1rem;
+background: #ffffff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+cursor: pointer;
+}
+.course:hover {
+transform: scale(1.02);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.course h2 {
+margin: 0;
+color: #0056b3;
+display: flex;
+align-items: center;
+}
+.course h2 img {
+margin-left: 1rem;
+width: 50px;
+height: 50px;
+}
+.course p {
+margin: 0.5rem 0;
+color: #666;
+}
+a {
+color: #0056b3;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+text-decoration: underline;
+}
+footer {
+background: #333;
+color: #fff;
+text-align: center;
+padding: 1rem;
+width: 100%;
+position: relative;
+bottom: 0;
+}
+/* Modal Styles */
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0, 0, 0, 0.4);
+padding-top: 60px;
+}
+.modal-content {
+background-color: #fefefe;
+margin: 5% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 80%;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.close {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
